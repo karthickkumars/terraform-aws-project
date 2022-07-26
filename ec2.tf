@@ -1,7 +1,6 @@
 module "ec2_instance" {
   source  = "git@github.com:karthickkumars/terraform-aws-modules//ec2?ref=master"
-  # version = "~> 3.0"
-
+  
   name = "COP test"
 
   ami                    = "ami-05803413c51f242b7"
